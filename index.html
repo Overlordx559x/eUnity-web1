@@ -45,10 +45,10 @@
                 <h2>Stay Updated</h2>
                 <h3>Subscribe to Our Newsletter</h3>
             </hgroup>
-            <form class="grid">
-                <input type="text" id="firstname" name="firstname" placeholder="First Name" aria-label="First Name" required />
-                <input type="email" id="email" name="email" placeholder="Email Address" aria-label="Email Address" required />
-                <button type="submit" onclick="event.preventDefault()">Subscribe</button>
+            <form class="grid" action="subscribe_process.php" method="POST">
+                <input type="text" id="firstname" name="firstname" placeholder="First Name" aria-label="First Name" required>
+                <input type="email" id="email" name="email" placeholder="Email Address" aria-label="Email Address" required>
+                <button type="submit">Subscribe</button>
             </form>
         </article>
     </div>
